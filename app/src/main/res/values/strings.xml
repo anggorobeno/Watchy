@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Watchy</string>
+    <string name="title_tv">TV Show</string>
+    <string name="title_movie">Movies</string>
+    <string name="desc">Overview</string>
+    <string name="poster_image">Poster Image</string>
+    <string name="popular_tv">Popular Tv Show</string>
+    <string name="popular_movie">Popular Movie</string>
+    <string name="no_desc">No English Description</string>
+    <string name="release_date">Release Date</string>
+    <string name="airing_date">First Air Date</string>
+    <string name="dummy_text">Lorem Ipsum</string>
+    <string name="favourite_menu">Favourite Menu</string>
+    <string name="favourite_movie">Favourite Movie</string>
+    <string name="message_undo">Cancel delete?</string>
+    <string name="message_ok">OK</string>
+    <string name="fabContentDesc">Fab To add Favourite</string>
+    <string name="poster_image_detail">Poster For Selected Movie or Tv Show</string>
+    <string name="rating">%1.1f out of 10 </string>
+
+</resources>

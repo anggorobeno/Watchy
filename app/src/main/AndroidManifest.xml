@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.myviewmodel">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/movie_splash_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/movie_splash_icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyViewModel">
+        <activity
+            android:name=".view.activity.FaveActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.activity.BottomNavActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.activity.DetailTvActivity"
+            android:exported="true" />
+        <activity
+            android:name=".view.activity.DetailMovieActivity"
+            android:exported="true" />
+
+        <activity
+            android:name=".view.activity.SplashScreen"
+            android:exported="true"
+            android:theme="@style/SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

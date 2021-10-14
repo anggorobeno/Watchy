@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red_400">#ec407a</color>
+    <color name="grey_400">#2b2f3a</color>
+    <color name="grey_500">#20232a</color>
+    <color name="shimmer_bg">#dddddd</color>
+    <color name="subtitle">#979696</color>
+
+
+</resources>
